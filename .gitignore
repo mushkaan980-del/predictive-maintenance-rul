@@ -1,0 +1,22 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data and model files (large, reproducible, sometimes licensed)
+data/
+ml/artifacts/
+mlruns/
+*.pkl
+*.joblib
+
+# Node (for the client folder later)
+node_modules/
+client/build/
+client/dist/
+
+# Secrets and OS files
+.env
+.DS_Store
+Thumbs.db
