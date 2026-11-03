@@ -7,7 +7,9 @@ with uncertainty estimates, explanations, and a web dashboard.
 Week 1: baseline model in progress
 
 ## Dataset
-NASA C-MAPSS (FD001). Download it and place the files in `data/raw/`.
+NASA C-MAPSS turbofan engine degradation simulation (FD001-FD004),
+from the NASA Ames Prognostics Data Repository (Saxena & Goebel),
+obtained via Kaggle. Place the files in `data/raw/`. Data is not included in this repo.
 
 ## Setup
 python -m venv .venv
